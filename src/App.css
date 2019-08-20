@@ -1,0 +1,72 @@
+/* ====================== common css ======================== */
+html, body{
+  padding: 0;
+  margin:0;
+  border: 0;
+  background: #f4f4f4;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+#sidebar {
+  color: aliceblue;
+  border: 1px solid #0c52e6;
+  background: #6364b7;
+  height: 100%;
+  position: fixed;
+  min-width: 225px;
+}
+#sidebar h3{
+  font-weight: 400;
+  margin-top: 110px;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+#sidebar h3 a{
+  color: #ffffff;
+  text-decoration: none;
+}
+#sidebar ul li{
+  padding: 15px;
+}
+#sidebar ul li:hover, #sidebar ul li:focus, #sidebar ul li:visited{
+  background: #0c52e6;
+  border-left: 3px solid #ffffff;
+  transition: .2s;
+}
+#sidebar ul li a{
+  color: #ffffff !important;
+}
+#sidebar ul{
+  color: #ffffff !important;
+  margin-top: 40px;
+}
+#sidebar .nav-link {
+  display: block;
+  padding: 0 !important;
+}
+.no-padding{
+  padding: 0;
+}
+.main-data{
+  padding-top: 40px;
+}
+.main-data h2, .main-data p{
+  padding-left: 15px;
+}
+.title-section{
+  padding: 0 50px;
+}
+.o-flow{
+  overflow: hidden;
+}
+.c-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.top-box{
+  position: relative;
+}
